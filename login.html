@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drago Store's: Login</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c0c0c0;
+        }
+
+        h1, .subtitulo {
+            text-align: center;
+        }
+
+        form {
+            width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        input {
+            width: 90%;
+            padding: 7px;
+            margin: 8px 0;
+        }
+
+        .erro {
+            color: red;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 8px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome User!</h1>
+
+    <p class="subtitulo">
+        Please enter with your e-mail and password.
+    </p>
+
+    <form id="Login">
+
+        <section>
+            <h2>Login</h2>
+
+            <label for="e-mail">E-mail</label>
+            <br>
+
+            <input type="email" id="e-mail"
+                placeholder="E-mail" required>
+
+            <br>
+
+            <label for="password">Password</label>
+            <br>
+
+            <input type="password" id="password"
+                placeholder="Password" required>
+
+            <br>
+
+            <button type="submit">Login</button>
+
+            <p id="mensagem" class="erro"></p>
+
+            <button type="button">
+                Forget your Password?
+            </button>
+
+            <p>
+                Don't have an account?
+                <a href="cadastro.html">Create Here!</a>
+            </p>
+
+        </section>
+
+    </form>
+
+</body>
+</html>
+
